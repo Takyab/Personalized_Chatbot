@@ -12,8 +12,10 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 
 import nltk
-nltk.download('wordnet')
 nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('stopwords')
+nltk.download('wordnet')
 nltk.download('averaged_perceptron_tagger')
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
@@ -81,5 +83,4 @@ def main():
 if __name__ == "__main__":
     main()
 print_hi('PyCharm')
-
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
